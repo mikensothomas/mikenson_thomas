@@ -115,8 +115,8 @@ class _LoginState extends State<Login> {
                           String nome = nomeEditingController.text;
                           String email = emailEditingController.text;
 
-                          var db = await SharedPreferences.getInstance();
-                          db.setString('email', email);
+                          // var db = await SharedPreferences.getInstance();
+                          // db.setString('email', email);
                           
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(content: Text('Processando Dados')),
